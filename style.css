@@ -1,0 +1,679 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ======================
+    common css start
+========================= */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    /* background: white; */
+}
+
+.main{
+    display: flex;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.common-btn a{
+    background-color: #F40404;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 13px 40px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.common-btn a:hover{
+    border: 1px solid #FFFFFF;
+}
+
+.box{
+    display: flex;
+}
+/* ======================
+    common css end
+========================= */
+
+/* =======================
+     nav section start
+
+===========================*/
+
+.navbar{
+    background: #F40404;
+    padding: 27px 0px;
+}
+.logo{
+    width: 20%;
+    
+    
+}
+
+.nav-Item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    
+   
+
+}
+
+.nav-Item ul{
+    display: flex;
+    column-gap: 47px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.nav-Item ul li{
+    transition: 0.4s;
+}
+
+.nav-Item ul li:hover{
+    color: rgb(159, 159, 163);
+}
+
+.btn-Item{
+    width: 20%;
+    
+}
+
+.btn-Item a{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: 1px solid #FFFFFF;
+    padding: 13px 32px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+
+}
+
+.btn-Item a:hover{
+    background:#FFFFFF;
+    color: black;
+}
+/* =======================
+     nav section end
+
+===========================*/
+
+
+/* =======================
+     banner section start here
+
+===========================*/
+
+.banner{
+    background: url(image/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 257px 0px;
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    width: 840px;
+
+}
+
+
+
+/* =======================
+     banner section end here
+
+===========================*/
+
+
+/* =======================
+     biggest section start
+
+===========================*/
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+}
+
+.biggest h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    width: 289px;
+    
+}
+
+.biggest p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #6C6C6C;
+    width: 661px;
+    
+}
+
+.biggest .box {
+    align-items: center;
+    
+    
+}
+
+.biggest{
+    padding-top: 78px;
+    padding-bottom: 24px;
+ }
+
+ .biggest .box1{
+    padding-top: 100px;
+    justify-content: space-between;
+ }
+
+/* =======================
+     biggest  section end
+
+===========================*/
+
+
+/* ==============================
+     service  section start here
+
+=================================*/
+.service{
+    margin-top: 24px;
+}
+.service .left{
+    width: 50%;
+    height: 410px;
+    background: FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.service .service_info{
+    margin-right: 47px;
+}
+
+.service .service_info h1{
+    color: #000000;
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    
+}
+
+.service .service_info p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    width: 400px;
+    
+}
+
+
+
+.service .right{
+    width: 50%;
+    height: 410px;
+    background-image:url(image/backgroun1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+
+
+.service .right .overly{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: 0.8s;
+    
+   }
+
+
+.service .right:hover .overly{
+    left: 0;
+}
+
+.service .right .overly h1{
+    color: #FFFFFF;
+    font-size:36px ;
+    font-weight:700 ;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 19px;
+    
+    
+}
+
+.service .right .overly .common-btn{
+    align-self: flex-start;
+    padding-left: 140px;
+   
+}
+     
+
+   
+
+
+
+
+.service .bottom_left{
+    width: 50%;
+    height: 410px;
+    background-image:url(image/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.service .bottom_left .overly{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 0.8s;
+}
+
+
+.service .bottom_left:hover .overly{
+  left: 0;
+}
+
+.service .bottom_left .overly h1{
+    color: #FFFFFF;
+    font-size:36px ;
+    font-weight:700 ;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 19px;
+}
+
+.service .bottom_left .overly .common-btn{
+    align-self: flex-start;
+    padding-left: 213px;
+   
+}
+
+.service .bottom_right{
+    width: 50%;
+    height: 410px;
+    background-image:url(image/background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service .bottom_right .overly{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: 0.8s;
+}
+
+.service .bottom_right:hover .overly{
+ left: 0;
+}
+
+.service .bottom_right .overly h1{
+    color: #FFFFFF;
+    font-size:36px ;
+    font-weight:700 ;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 19px;
+}
+
+.service .bottom_right .overly .common-btn{
+    align-self: flex-start;
+    padding-left: 140px;
+}
+
+
+/* ==============================
+     service  section end here
+
+=================================*/
+
+
+
+/* ==============================
+     about section start here
+
+=================================*/
+
+.about{
+    padding: 136px 0;
+    background: #F0F0F0;
+}
+.about .about_banner{
+    width: 100%;
+    height: 361px;
+    background-image: url(image/aboutsection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.about .about_banner .overlay{
+    width: 40%;
+    height: 100%;
+    background: #F40404;
+    position: absolute;
+    top: 0;
+    left: -40%;
+    transition: 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about_banner:hover .overlay{
+    left: 0;
+}
+
+.about .about_banner .overlay h1{
+    font-size:36px ;
+    font-weight: 700;
+    color:#FFFFFF ;
+    font-family: "Poppins", sans-serif;
+    width: 262px;
+   
+}
+
+.about .about_banner .about_button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.8s;
+    
+}
+
+.about .about_banner:hover .about_button{
+    left: 70%;
+}
+
+.about .about_banner .about_button .common-btn a{
+    background: #FFFFFF;
+    color: #F40404;
+    
+}
+
+.about .about_banner .about_button .common-btn a:hover{
+    background:#F40404;
+    color:#FFFFFF ;
+}
+/* ==============================
+     about section end here
+
+=================================*/
+
+
+/* ==============================
+     sponsore section start here
+
+=================================*/
+
+.sponsore{
+    padding: 117px 0;
+}
+.sponsore .box{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ==============================
+     sponsore section end here
+
+=================================*/
+
+
+/* ==============================
+     card section start here
+
+=================================*/
+
+.card_section{
+    background: #F0F0F0;
+    padding: 110px 0px;
+}
+.box02{
+   justify-content: space-between;
+   align-items: center;
+  
+}
+
+.card_section .card{
+    width: 340px;
+    height: 400px;
+    background-image: url(image/card1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card_section .card .overly{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    padding-top: 75px;
+    padding-right:44px ;
+    padding-bottom:52px ;
+    padding-left: 46px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.8s;
+    
+  
+}
+
+.card_section .card:hover .overly{
+    top: 0;
+}
+
+
+
+.card .overly h2{
+    font-size:24px ;
+    color:#FFFFFF ;
+    font-weight:700 ;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+.card_section a{
+    padding: 11px 23px;
+    background: rgba(255,255,255,0.5);
+    color:#FFFFFF;
+    font-size:12px ;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 52px;
+    display: inline-block;
+    
+}
+
+
+
+
+.card_section .card1{
+    width: 340px;
+    height: 400px;
+    background-image: url(image/card2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card_section .card1 .overly{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    padding-top: 75px;
+    padding-right:44px ;
+    padding-bottom:52px ;
+    padding-left: 46px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.8s;
+    
+  
+}
+
+.card_section .card1:hover .overly{
+    top: 0;
+}
+
+
+
+.card1 .overly h2{
+    font-size:24px ;
+    color:#FFFFFF ;
+    font-weight:700 ;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+.card_section a{
+    padding: 11px 23px;
+    background: rgba(255,255,255,0.5);
+    color:#FFFFFF;
+    font-size:12px ;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 52px;
+    display: inline-block;
+    
+}
+
+
+.card_section .card2{
+    width: 340px;
+    height: 400px;
+    background-image: url(image/card3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card_section .card2 .overly{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    padding-top: 75px;
+    padding-right:44px ;
+    padding-bottom:52px ;
+    padding-left: 46px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.8s;
+    
+  
+}
+
+.card_section .card2:hover .overly{
+    top: 0;
+}
+
+
+
+.card2 .overly h2{
+    font-size:24px ;
+    color:#FFFFFF ;
+    font-weight:700 ;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+.card_section a{
+    padding: 11px 23px;
+    background: rgba(255,255,255,0.5);
+    color:#FFFFFF;
+    font-size:12px ;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 52px;
+    display: inline-block;
+    
+}
+/* ==============================
+     card section end here
+
+=================================*/
